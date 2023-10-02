@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./main.js" defer="defer"></script>
+    <title>Document</title>
+  <script defer src="main.js"></script></head>
+
+  <body>
+    <form action="">
+      <label for="email">
+        <input
+          required
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email:"
+        />
+        <span class="error" id="emailError"></span>
+      </label>
+
+      <label for="country"
+        >Country:
+        <select name="country" id="country">
+          <option value="PH">Philippines</option>
+          <option value="CN">China</option>
+          <option value="TW">Taiwan</option>
+          <option value="ID">Indonesia</option>
+        </select>
+      </label>
+
+      <label for="zipcode">
+        <input
+          required
+          type="text"
+          name="zipcode"
+          id="zipcode"
+          placeholder="Zipcode:" />
+        <span class="error" id="zipcodeError"></span
+      ></label>
+
+      <label for="password">
+        <input
+          required
+          type="password"
+          name=""
+          id="password"
+          placeholder="Password:"
+        />
+        <span class="error" id="passwordError"></span>
+      </label>
+
+      <label for="confPassword">
+        <input
+          required
+          type="password"
+          name=""
+          id="confPassword"
+          placeholder="Confirm Password:"
+        />
+        <span class="error" id="confPasswordError"></span>
+      </label>
+
+      <input type="submit" value="Submit" name="submit" />
+    </form>
+  </body>
+</html>
